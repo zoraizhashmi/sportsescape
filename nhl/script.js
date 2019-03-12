@@ -38,6 +38,13 @@ function random(){
 	console.log("The number of the question is " + rand);
 }
 
+function moveOnNl(el){
+	if(el.classList.contains("show")) { 
+		window.open("nhl/nhlpuzzle.html", '_self');
+	} else {
+	}
+}
+
 //This function will run when the user clicks on the NHL logo to get a hint
 function hint(el) {
 	//when the question is "who is the defense-man?" the hint will be a picture of the brown hair
