@@ -33,7 +33,7 @@ function redImage(el){
 	}
 }
 
-function moveOn(el){
+function moveOnNhl(el){
 	if(el.classList.contains("show")) { 
 		window.open("nhl/nhlpuzzle.html", '_self');
 	} else {
