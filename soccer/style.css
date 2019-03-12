@@ -1,0 +1,145 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+
+.row {
+	display: flex;
+	height: 25%;
+	width: 100%;
+}
+
+.tinyrow{
+	height: 100%;
+	width: 50%;
+}
+
+.big-box{
+	display: flex;
+	height: 75%;
+	width: 100%;
+}
+.big-column {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.threebox{
+	height: calc(100%/3);
+	width:100%;
+}
+
+.babycolumn {
+	display: flex;
+	width: 25%;
+	height: 100%;
+}
+
+.6column {
+	display: block;
+	width: 100%;
+	height: 75%;
+}
+
+.beige{
+	background-color: #e6b1bd;
+	display: block;
+}
+
+.grey {
+		
+		background-color: #cccccc;
+}
+.brown{
+	display: flex;
+	height: 100%;
+	width: calc(100%/8);
+	background-color: #F0FFFF;
+	background-image: url("images/soccerframe.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+
+.burgundy {
+
+	background-color:7fbfff;
+}
+
+
+
+.pinkish {
+		background-color: #cccccc;
+}
+
+.purple {
+	
+	background-color: #bfb4ff;
+}
+
+.grow{
+	
+	transition: all .2s ease-in-out;
+}
+.row{
+	display:flex;
+	height:25%;
+	width: 100%;
+}
+.black {
+	
+	background-color: #000000;
+}
+.lightgreen{
+	background-color: #CDD873;
+}
+.vanilla{
+	background-color: #F0FFFF;
+}
+.smallboxes{
+	display: flex;
+	height: 100%;
+	width: calc(100%/8);
+}
+.numboxes{
+	display: block;
+	height: 25%;
+	width: 100%;
+}
+.column{
+	display: block;
+	height: 100%;
+	width: 25%;
+}
+.grow{
+	transition: all .1s ease-in-out;
+} 
+.grow:hover{
+	transform:scale(1.2);
+}
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.restrict-img-size {
+	max-height: 99%;
+	max-width: 99%;
+}
+.hidekey{
+	display: none;
+}
+.show{
+	display:flex;
+}
+
