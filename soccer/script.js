@@ -19,6 +19,8 @@ function greenImage(el){
 		document.getElementById("key").classList.remove("hidekey");
 		document.getElementById("key").classList.add("show");
 		rightSound.play();
+	} else if(document.getElementById("key").classList.contains("show")) { 
+		window.open("nhl/nhlpuzzle.html", '_self');
 	} else {
 	}
 }
