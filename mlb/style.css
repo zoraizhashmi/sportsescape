@@ -157,6 +157,8 @@ background: repeating-linear-gradient(
 	right: 0;
 }
 
-.block {
+.splitindex {
 	display: block;
+	height: 50%;
+	width: 100%
 }
