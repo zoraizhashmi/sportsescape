@@ -1,0 +1,57 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Phase 9</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="images/nhl_logo.png" rel="icon" type="image/x-icon" />
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body onload="random()" >
+		<div class="left-col">
+			<div class = "hint-holder width center-content">
+				<img class="restrict-img-size" src="images/nhl_logo.png" onclick = "hint(this)"/>
+			</div>
+			<div class = "question-holder width center-content">
+				<div class="text question-text" id ="question"></div>
+			</div>
+			<div class = "hint-holder width center-content">
+				<a href="google.com"><img class="restrict-img-size hide" id="winner" src="images/key.png"/></a>
+			</div>
+		</div>
+		<div class="right-col">
+			<div class = "space width">
+				<div class="countdown center-content" id="timer-holder">
+					<div class="timer-text" id="timer"></div>
+				</div>
+			</div>
+			<div class = "row width center-content">
+				<div class = "image-square">
+					<img class="restrict-img-size top-img left-img" src="images/brent1.png" id ="img1" onclick="img1(this)"></img>
+				</div>
+				<div class = "image-square">
+					<img class="restrict-img-size top-img right-img" src="images/alex2.png" id ="img2" onclick="img2(this)"></img>
+				</div>
+			</div>
+			<div class = "row width center-content">
+				<div class = "image-square">
+					<img class="restrict-img-size bottom-img left-img" src="images/teemu3.png" id="img3" onclick="img3(this)"></img>
+				</div>
+				<div class = "image-square">
+					<img class="restrict-img-size bottom-img right-img" src="images/wayne4.png" id="img4" onclick="img4(this)"></img>
+				</div>
+			</div>
+			<div class = "extra-space width"></div>
+			<div class = "answer width center-content">
+				<div class ="check-button center-content">
+					<div class="text answer-text center-content" onclick="checkAnswer()">Check Answer</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
