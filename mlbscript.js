@@ -11,7 +11,7 @@ function sRoomStart() {
 
 function moveOnPartTwo(el){
 	if(el.src.match("images/bosskey.gif")){
-		window.open("part2.html", '_self');
+		window.open("mlbpart2.html", '_self');
 	}
 	else {
 		var audio = new Audio('sounds/glove.mp3');

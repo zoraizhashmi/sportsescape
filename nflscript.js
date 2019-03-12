@@ -38,7 +38,7 @@ function check(){
 
 function moveOnMlb(){
 	if(document.getElementById("check").src.match("bosskey.gif")){
-	window.open("mlb/part1.html", '_self');
+	window.open("mlbpart1.html", '_self');
 	} else{
 		
 	}

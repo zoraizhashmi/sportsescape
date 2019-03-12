@@ -1,0 +1,83 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>FIND THE ODD ONE OUT</title>
+		<link rel="stylesheet" href="mlbstyle.css" />
+	</head>
+
+	<body onload="sRoomStart()">
+			<embed src="sounds/charge.wav" id="mlbstart" width="180" height="90" loop="false" autostart="true" hidden="true" />
+			<!-- FIRST SLOT -->
+			<div class="countdown center-content">
+				<div class="timer-text">
+				<p>You have <span id="countdown">45</span> Seconds left!</p>
+				</div>
+				</div>
+			</div>
+			<div class="s-row gray center-content">
+				<div class="out center-content">
+					<img src="images/baseball.png" class="button make-small" id="ball1b" onclick=""/>
+				</div>
+				<div class="room">
+					<div class="red block center-content">
+						<img src="images/s/smith.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="blue block center-content">
+						<img src="images/s/sanchez.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="red block center-content">
+						<img src="images/s/scherzer.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+				</div>
+				<div class="out gray center-content">
+					<img src="images/baseball.png" class="button make-small" id="ball2b" onclick=""/>
+				</div>
+				</div>
+			</div>
+			<!-- SECOND SLOT -->
+			<div class="s-row center-content">
+				<div class="out gray center-content">
+					<img src="images/mlb.png" class="zoom button hint-size" id="mlb1" onclick="sHintReveal(this)"/>
+				</div>
+				<div class="room">
+					<div class="blue block center-content">
+						<img src="images/s/schwarber.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="red block center-content">
+						<img src="images/s/sandoval.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="blue block center-content">
+						<img src="images/s/pujols.png" class="button restrict-img-size" id="pujols" onclick="sWinner(this)"/>
+					</div>
+				</div>
+				<div class="out gray center-content">
+					<img src="images/mlb.png" class="zoom button hint-size" id="mlb2" onclick="sHintReveal(this)"/>
+				</div>
+			</div>
+			<!-- THIRD SLOT -->
+			<div class="s-row center-content">
+				<div class="out gray center-content">
+					<img src="images/baseball.png" class="button make-small" id="ball3b" onclick=""/>
+				</div>
+				<div class="room">
+					<div class="red block center-content">
+						<img src="images/s/seager.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="blue block center-content">
+						<img src="images/s/springer.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+					<div class="red block center-content">
+						<img src="images/s/syndergaard.png" class="button restrict-img-size" onclick="checkPosition()"/>
+					</div>
+				</div>
+				<div class="out gray center-content">
+					<img src="images/baseball.png" class="button make-small" id="ball4b" onclick=""/>
+				</div>
+			</div>
+		</div>		
+		<script src="mlbscript.js"></script>
+	</body>
+	
+</html>
