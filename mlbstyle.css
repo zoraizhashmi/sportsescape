@@ -1,0 +1,158 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0vh;
+	display: block;
+	background-color: #E8DEDF;
+
+}
+
+
+h1 {
+	text-align: center
+	font-family:
+}
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 99%;
+	max-width: 99%;
+}
+
+.hint-size {
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.make-small {
+	max-height: 50%;
+	max-width: 50%;
+}
+
+.countdown{
+	background-color:black;
+	width: 20%;
+	height:5%;
+	margin-left:40%; 
+	margin-right:40%;
+}
+
+.timer-text{
+	color:white;
+	font-family:Courier New;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.zoom {
+	transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.room {
+	display: flex;
+	height: 100%;
+	width: 75%;
+}
+
+.opaque {
+	opacity: 0.75;
+}
+
+.out {
+	display: flex;
+	height: 100%;
+	width: calc(25%/2);
+}
+
+.block {
+	display: flex;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.row {
+	height: calc(100%/3);
+	width: 100%;
+	display: flex;
+}
+
+.s-row {
+	height: calc(95%/3);
+	width: 100%;
+	display: flex;
+}
+
+
+.pinstripe {
+background: repeating-linear-gradient(
+  to right,
+  #ffffff ,
+  #015fb5 2px,
+  #ffffff 10px,
+  #015fb5 2px
+);
+}
+
+.opaque {
+	opacity: 0.25;
+}
+
+.no-cursor:hover {
+	cursor: default;
+}
+
+.button:active {
+	transform: scale(0.95, 0.95);
+}
+
+.red {
+	background-color: #bb2a1a;
+}
+
+.white {
+	background-color: #ffffff;
+}
+
+.blue {
+	background-color: #000088;
+}
+
+.gray {
+	background-color: #E8DEDF;
+}
+.congratsbody {
+	color: #fff;
+	background: #d61e26;
+	overflow: hidden;
+	display: flex
+}
+
+.congrats {
+	position: relative;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.outcongrats {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}

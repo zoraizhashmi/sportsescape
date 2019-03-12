@@ -1,0 +1,106 @@
+body{
+	display:flex;
+	width:100vw;
+	height:100vh;
+	margin:0;
+	background-image:url("images/ice.jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.answer{
+	height:25%;
+}
+.answer-text{
+	font-size:30px;
+}
+.bottom-img{
+	position: absolute;
+	top:0;
+}
+.check-button{
+	width: 20%;
+	height:100%;
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-image: url("images/puck.png");
+}
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+}
+.countdown{
+	background-color:black;
+	width: 20%;
+	height:100%;
+	margin-left:auto; 
+	margin-right:20;
+}
+.hide{
+	display:none;
+}
+.hint-holder{
+	height:25%;
+}
+.image-square{
+	width: 30%;
+	height:100%;
+	position: relative;
+}
+.left-col{
+	display:block;
+	width:calc(100%/3);
+	height:100%;
+}
+.left-img{
+	position: absolute;
+    right: 0;
+}
+.question-holder{
+	height:50%;
+}
+.question-text {
+	font-size:40px;
+}
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+.right-col{
+	display:block;
+	width: calc(100% * 2/3);
+	height:100%;
+}
+.right-img{
+	position: absolute;
+    left: 0;
+}
+.row{
+	height:30%;
+}
+.space{
+	height:10%;
+}
+.extra-space{
+	height:5%;
+}
+.text{
+	color:white;
+	font-family:Courier New;
+	font-weight:bold;
+	text-shadow: 4px 4px black;
+}
+.timer-text{
+	color:white;
+	font-family:Courier New;
+	font-weight:bold;
+	font-size:30px;
+}
+.top-img{
+	position: absolute;
+    bottom: 0;
+}
+.width{
+	width:100%;
+}
