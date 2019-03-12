@@ -135,11 +135,21 @@ background: repeating-linear-gradient(
 	color: #fff;
 	background: #d61e26;
 	overflow: hidden;
+	display: flex
 }
 
 .congrats {
 	position: relative;
-	width: 100%;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.outcongrats {
+	position: relative;
+	width: 20%;
 	height: 100%;
 	text-align: center;
 	margin: 0 auto;
