@@ -1,0 +1,163 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	margin:0;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.square-div {
+	height:100%;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.row{
+	display:block;
+	background-color:#c49833;
+	width:100%;
+	height:15%;
+}
+.column1{
+	display:block;
+	background-color:#2d3d56;
+	width:28%;
+	height:100%;
+}
+.box1{
+	display:block;
+	background-color:#2d3d56;
+	width:28%;
+	height:33%;
+}
+.box2{
+	display:block;
+	background-color:#4d78bc;
+	width:100%;
+	height:33%;
+}
+.box3{
+	display:block;
+	background-color:#a0a7b2;
+	width:calc(100/3);
+	height:33%;
+}
+.box4{
+	display:block;
+	background-color:#dda844;
+	width:calc(100/3);
+	height:33%;
+}
+.box5{
+	display:block;
+	background-color:#4d78bc;
+	width: calc(100/3);
+	height:33%;
+}
+.box6{
+	display:block;
+	background-color:#dd7744;
+	width:100%;
+	height:33%;
+}
+.q1{
+	display:flex;
+	background-color:#10bc8c;
+	width: 36%;
+	height:100%;
+}
+
+.dy2{
+	display:flex;
+	background-color:#825e71;
+	width: 35%;
+	height:100%;
+}
+.q3{
+	display:flex;
+	background-color:#a9b277;
+	width: 43%;
+	height:100%;
+}
+.column6{
+	display:block;
+	background-color:#f47a42;
+	width:28%;
+	height:50%;
+}
+.column9{
+	display:block;
+	background-color:#42f4d1;
+	width:25%;
+	height:50%;
+}
+.column{
+	display:block;	
+	width:50%;
+	height:100%;
+}
+.countdown{
+	display:block;
+	background-color:##b23737;
+	width:100%;
+	height:1%;
+}
+.column-mid{
+	display:block;
+	background-color:#7c6f51;
+	width:100%;
+	height:28%;
+}
+.column3{
+	display:block;
+	background-color:#58775f;
+	width:100%;
+	height:50%;
+}
+.column5{
+	display:flex;
+	background-color:#19c642;
+	width:100%;
+	height:19%;
+}
+.row2{
+	display:block;
+	background-color:#336ac4;
+	width:100%;
+	height:95%;
+}
+.column4{
+	display:block;
+	background-color:#195cc6;
+	width:28%;
+	height:100%;
+}
+.column8{
+	display:block;
+	background-color:#9cb72f;
+	width:28%;
+	height:50%;
+}
+.column10{
+	display:block;
+	background-color:#2f97b7;
+	width:28%;
+	height:50%;
+}
+
+.restrict-img-size{
+	max-height: 30%;
+	max-width: 39%;
+}
+
+.answer-size {
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.centering-content {
+	align-items: center;
+	justify-content: center;
+	display:block;
+}
