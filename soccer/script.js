@@ -19,7 +19,7 @@ function greenImage(el){
 		document.getElementById("key").classList.remove("hidekey");
 		document.getElementById("key").classList.add("show");
 		rightSound.play();
-	 else {
+	} else {
 	}
 }
 
