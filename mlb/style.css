@@ -156,3 +156,7 @@ background: repeating-linear-gradient(
 	left: 0;
 	right: 0;
 }
+
+.block {
+	display: block;
+}
