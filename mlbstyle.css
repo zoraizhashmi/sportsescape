@@ -96,6 +96,10 @@ h1 {
 	display: flex;
 }
 
+.splitindex {
+	height: 50%;
+	width: 100%;
+}
 
 .pinstripe {
 background: repeating-linear-gradient(
