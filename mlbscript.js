@@ -167,7 +167,7 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-	window.open("part1.html", '_self');
+	window.open("mlbpart1.html", '_self');
 	}
 }, 1000);
 
