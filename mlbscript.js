@@ -93,8 +93,10 @@ function redHintReveal(el){
 		document.getElementById('ball2a').src = "images/red/red.png"
 		document.getElementById('ball1a').classList.remove("hint-size");
 		document.getElementById('ball1a').classList.add("make-small");
+		document.getElementById('ball1a').classList.remove("caption");
 		document.getElementById('ball2a').classList.remove("hint-size");
 		document.getElementById('ball2a').classList.add("make-small");
+		document.getElementById('ball2a').classList.remove("caption");
 		var audio = new Audio('sounds/batcrack.wav');
 	audio.play();
 	} 
@@ -112,8 +114,10 @@ function pinstripleHintReveal(el){
 		document.getElementById('ball4a').src = "images/pinstripes/pinstripe.png"
 		document.getElementById('ball3a').classList.remove("hint-size");
 		document.getElementById('ball3a').classList.add("make-small");
+		document.getElementById('ball3a').classList.remove("caption");
 		document.getElementById('ball4a').classList.remove("hint-size");
 		document.getElementById('ball4a').classList.add("make-small");
+		document.getElementById('ball4a').classList.remove("caption");
 		var audio = new Audio('sounds/batcrack.wav');
 	audio.play();
 	} 
@@ -131,8 +135,10 @@ function pinstripleHintReveal(el){
 		document.getElementById('ball6a').src = "images/even/under10.png"
 		document.getElementById('ball5a').classList.remove("hint-size");
 		document.getElementById('ball5a').classList.add("make-small");
+		document.getElementById('ball5a').classList.remove("caption");
 		document.getElementById('ball6a').classList.remove("hint-size");
 		document.getElementById('ball6a').classList.add("make-small");
+		document.getElementById('ball6a').classList.remove("caption");
 		var audio = new Audio('sounds/batcrack.wav');
 	audio.play();
 	}
@@ -151,6 +157,10 @@ function sHintReveal(el){
 		document.getElementById('ball2b').src = "images/s/s.png"
 		document.getElementById('ball3b').src = "images/s/s.png"
 		document.getElementById('ball4b').src = "images/s/s.png"
+		document.getElementById('ball1b').classList.remove("caption");
+		document.getElementById('ball2b').classList.remove("caption");
+		document.getElementById('ball3b').classList.remove("caption");
+		document.getElementById('ball4b').classList.remove("caption");
 		var audio = new Audio('sounds/batcrack.wav');
 	audio.play();
 	} 
