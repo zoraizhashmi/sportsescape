@@ -138,6 +138,33 @@ background: repeating-linear-gradient(
 .gray {
 	background-color: #E8DEDF;
 }
+
+.caption {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.caption .captiontext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.caption:hover .captiontext {
+    visibility: visible;
+}
+
+
+
 .congratsbody {
 	color: #fff;
 	background: #d61e26;
