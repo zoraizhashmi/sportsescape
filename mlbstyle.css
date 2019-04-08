@@ -141,8 +141,9 @@ background: repeating-linear-gradient(
 
 .caption {
     position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .caption .captiontext {
@@ -156,7 +157,7 @@ background: repeating-linear-gradient(
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    z-index: 0;
 }
 
 .caption:hover .captiontext {
