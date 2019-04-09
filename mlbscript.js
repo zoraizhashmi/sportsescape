@@ -87,7 +87,9 @@ function sWinner(el){
 function redHintReveal(el){
 		el.src = "images/blank.png";
 		document.getElementById('cap1a').classList.remove("captiontext");
+		document.getElementById('cap1a').innerHTML = '';
 		document.getElementById('cap2a').classList.remove("captiontext");
+		document.getElementById('cap2a').innerHTML = '';
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('ball1a').src.match("images/blank.png") && document.getElementById('ball2a').src.match("images/blank.png")){
@@ -108,7 +110,9 @@ function redHintReveal(el){
 function pinstripleHintReveal(el){
 		el.src = "images/blank.png";
 		document.getElementById('cap3a').classList.remove("captiontext");
+		document.getElementById('cap3a').innerHTML = '';
 		document.getElementById('cap4a').classList.remove("captiontext");
+		document.getElementById('cap4a').innerHTML = '';
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();	
 	if (document.getElementById('ball3a').src.match("images/blank.png") && document.getElementById('ball4a').src.match("images/blank.png")){
@@ -129,7 +133,9 @@ function pinstripleHintReveal(el){
 	function digitHintReveal(el){
 		el.src = "images/blank.png";
 		document.getElementById('cap5a').classList.remove("captiontext");
+		document.getElementById('cap5a').innerHTML = '';
 		document.getElementById('cap6a').classList.remove("captiontext");
+		document.getElementById('cap6a').innerHTML = '';
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('ball5a').src.match("images/blank.png") && document.getElementById('ball6a').src.match("images/blank.png")){
@@ -151,7 +157,9 @@ function pinstripleHintReveal(el){
 function sHintReveal(el){
 		el.src = "images/blank.png";
 		document.getElementById('cap1b').classList.remove("captiontext");
+		document.getElementById('cap1b').innerHTML = '';
 		document.getElementById('cap2b').classList.remove("captiontext");
+		document.getElementById('cap2b').innerHTML = '';
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('mlb1').src.match("images/blank.png") && document.getElementById('mlb2').src.match("images/blank.png")){
