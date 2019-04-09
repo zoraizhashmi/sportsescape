@@ -157,7 +157,7 @@ background: repeating-linear-gradient(
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 0;
+    y-index: 1;
 }
 
 .caption:hover .captiontext {
