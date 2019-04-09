@@ -86,9 +86,8 @@ function sWinner(el){
 //this function allows for the logos in MLB part 1 Row 1 to turn into red blocks, revealing the hint (I also resize the images to make them look nicer) This happens when the MLB logos in the top are both clicked
 function redHintReveal(el){
 		el.src = "images/blank.png";
-		el.classList.remove("caption");
-		el.classList.remove("captiontext");
-		el.classList.remove("caption:hover");
+		document.getElementById('ball1a').classList.remove("captiontext");
+		document.getElementById('ball2a').classList.remove("captiontext");
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('ball1a').src.match("images/blank.png") && document.getElementById('ball2a').src.match("images/blank.png")){
@@ -108,9 +107,8 @@ function redHintReveal(el){
 //this function allows for the logos in MLB part 1 Row 2 to turn into Pinstripes, revealing the hint (I also resize the images to make them look nicer) This happens when the MLB logos in the middle are both clicked
 function pinstripleHintReveal(el){
 		el.src = "images/blank.png";
-		el.classList.remove("caption");
-		el.classList.remove("captiontext");
-		el.classList.remove("caption:hover");
+		document.getElementById('ball3a').classList.remove("captiontext");
+		document.getElementById('ball4a').classList.remove("captiontext");
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();	
 	if (document.getElementById('ball3a').src.match("images/blank.png") && document.getElementById('ball4a').src.match("images/blank.png")){
@@ -130,9 +128,8 @@ function pinstripleHintReveal(el){
 //this function allows for the logos in MLB part 1 Row 3 to turn into <10s, revealing the hint (I also resize the images to make them look nicer) This happens when the MLB logos in the last row are both clicked
 	function digitHintReveal(el){
 		el.src = "images/blank.png";
-		el.classList.remove("caption");
-		el.classList.remove("captiontext");
-		el.classList.remove("caption:hover");
+		document.getElementById('ball5a').classList.remove("captiontext");
+		document.getElementById('ball6a').classList.remove("captiontext");
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('ball5a').src.match("images/blank.png") && document.getElementById('ball6a').src.match("images/blank.png")){
@@ -153,9 +150,8 @@ function pinstripleHintReveal(el){
 //this function allows for the baseballs in MLB part 2 to turn into S's, revealing the hint. This happens when the MLB logos in the middle are both clicked
 function sHintReveal(el){
 		el.src = "images/blank.png";
-		el.classList.remove("caption");
-		el.classList.remove("captiontext");
-		el.classList.remove("caption:hover");
+		document.getElementById('ball1b').classList.remove("captiontext");
+		document.getElementById('ball2b').classList.remove("captiontext");
 	var audio = new Audio('sounds/whoosh.mp3');
 	audio.play();
 	if (document.getElementById('mlb1').src.match("images/blank.png") && document.getElementById('mlb2').src.match("images/blank.png")){
